@@ -1,0 +1,39 @@
+.pipes{
+   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #2bc98a, #678b19);
+   height:100vh;
+   &Board{
+      display: flex;
+   }
+   &Container{
+
+      display: grid;
+      place-items: center;
+      padding-top: 2rem;
+      grid-gap:6px;
+      &Back{
+         display: flex;
+         justify-content: flex-start;
+         width:90%;
+         margin-bottom: 4rem;
+         >button{
+            border:0;
+            background-color: transparent;
+            box-shadow: unset;
+         }
+      }
+   
+   }
+}
+
+.actions{
+   margin-top: 4rem;
+   display: flex;
+   justify-content: center;
+   &Help{
+
+      padding:0.4rem 0.8rem;
+      position: fixed;
+      right:2rem;
+      top:8rem;
+   }
+}

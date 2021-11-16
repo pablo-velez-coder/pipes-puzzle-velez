@@ -1,0 +1,39 @@
+@import "src/style/colors.scss";
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:$main-background-color;
+    padding-left: 2rem;
+    height: 6rem;
+    @media (max-width:420px){
+        padding-left: 1rem;
+        flex-direction: column;
+        justify-content: unset;
+    }
+    &Left{
+        >h1{
+            font-size:3rem;
+            cursor: pointer;
+            @media (max-width:700px){
+                font-size: 2rem;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+    &Right{
+        width: 400px;
+        @media (max-width:700px){
+            width:220px;
+        }
+        display:flex;
+        justify-content: space-around;
+        >p{
+            font-size: 1.4rem;
+            @media (max-width:700px){
+                font-size: 0.9rem;
+            }
+        }
+    }
+}

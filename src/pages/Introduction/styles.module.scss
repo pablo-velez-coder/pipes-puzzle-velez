@@ -1,0 +1,42 @@
+@import "src/scss/mixins.scss";
+@import "src/style/colors.scss";
+
+.introductionPage{
+    background-color: $main-background-color;
+    height:100vh;
+    display:grid;
+    place-items: center;
+    &Container{
+        background-color: $main-background-container;
+        border-radius: 5px;
+        padding:1.5rem;
+        text-align: center;
+        >h1{
+            font-size: 5rem;
+            margin-bottom: 3rem;
+        }
+        p{
+            color:#fff;
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+        form{
+            >input{
+                @include cartoonish-style;
+                padding:6px 22px;
+                border-radius: 4px;
+                outline-width: 0;
+                margin-right: 6px;
+            }
+            >button{
+                @include cartoonish-style;
+                border-radius: 50%;
+                padding:1rem;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 1.1rem;
+  
+            }
+        }
+    }
+}

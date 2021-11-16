@@ -1,0 +1,12 @@
+.helpModal{
+    >h1{
+        font-size: clamp(2rem, 10vw, 3rem); 
+        margin-bottom: 2rem;
+    }
+    &Container{
+        text-align: center;
+        >p{
+            font-size:1.4rem;
+        }
+    }
+}

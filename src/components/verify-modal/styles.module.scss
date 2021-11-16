@@ -1,0 +1,12 @@
+.modal{
+    height:300px;
+}
+.verifyModal{
+    >h1{
+        font-size: clamp(2rem, 10vw, 3rem); 
+        margin-bottom: 2rem;
+    }
+    &Container{
+        text-align: center;
+    }
+}
