@@ -5,8 +5,6 @@ A frontend project for the pipes-puzzle was developed.
 Implemented with Typescript, Redux for state management, Sass, and some unit testing with Jest and Enzyme.
 And trying to have an organized architecture and code as clean as possible.
 
-To start the project, run the <code>index.html</code> executive file from the <code>/build</code> directory
-
 <br>
 
 > ##Limitations of your solution <br>

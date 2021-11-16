@@ -1,4 +1,4 @@
-import { ILevel } from '@/src/interfaces/initialState'
+import { ILevel } from 'src/interfaces/initialState'
 import { useDispatch, useSelector } from 'react-redux'
 import {types } from 'src/types'
 import styles from './styles.module.scss'
