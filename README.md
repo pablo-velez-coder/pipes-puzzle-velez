@@ -2,6 +2,8 @@
 
 A frontend project for the pipes-puzzle was developed.
 
+Deployed version: https://pipes-puzzle-velez.netlify.app/
+
 Implemented with Typescript, Redux for state management, Sass, and some unit testing with Jest and Enzyme.
 And trying to have an organized architecture and code as clean as possible.
 
